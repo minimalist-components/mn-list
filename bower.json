@@ -1,0 +1,14 @@
+{
+  "name": "mn-display-list",
+  "version": "1.0.0",
+  "description": "A input component to display with elements scroll and touch interaction",
+  "main": [
+    "dist/mn-display-list.css",
+    "dist/mn-display-list.js"
+  ],
+  "authors": [
+    "Darlan Mendonça <darlanmendonca@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": ""
+}
