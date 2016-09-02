@@ -1,0 +1,27 @@
+mn-snap-list {
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+  display: block;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+
+  scroll-snap-points-x: repeat(96vw);
+  scroll-snap-type: mandatory;
+  // scroll-snap-align: center center;
+
+  .item:first-of-type {
+    margin-left: 2vw;
+  }
+
+  .item:last-of-type {
+    margin-right: 2vw;
+  }
+
+  .item {
+    max-width: 96vw;
+    box-shadow: 0 0 0 1vw white;
+  }
+}
