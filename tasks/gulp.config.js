@@ -23,6 +23,10 @@ module.exports = {
     './tasks/**/*.js',
     './sources/**/*.js',
   ],
+  imgs: {
+    src: './sources/imgs/*.{jpg, png}',
+    dest: './public/imgs',
+  },
   browserSync: require('browser-sync').create(),
   browserSyncOptions: {
     server: {

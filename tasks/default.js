@@ -8,6 +8,7 @@ let tasks = [
   'templates',
   'browser-sync',
   'watch',
+  'imgs',
 ];
 
 gulp.task('default', tasks);
