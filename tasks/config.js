@@ -10,6 +10,7 @@ module.exports = {
     watch: './sources/styles/**/*.scss',
     dest: './dist/',
     sourcemaps: '/sources/styles',
+    output: 'mn-snap-list.css',
   },
   scripts: {
     src: [
@@ -17,6 +18,7 @@ module.exports = {
       '!./sources/**/*.spec.js',
     ],
     dest: './dist/',
+    output: 'mn-snap-list.js',
   },
   lintScripts: [
     './gulpfile.js',
