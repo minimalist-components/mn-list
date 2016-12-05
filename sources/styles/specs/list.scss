@@ -25,6 +25,10 @@ mn-snap-list {
     }
   }
 
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
   .item {
     box-sizing: border-box;
     border: .5vw solid transparent;
